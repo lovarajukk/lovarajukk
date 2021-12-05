@@ -14,8 +14,8 @@ import aws_cdk.aws_apigateway as apigw
 import aws_cdk.aws_codedeploy as codedeploy
 class PipelinesWebinarStack(cdk.Stack):
 
-    def __init__(self, scope: cdk.Construct, construct_id: str, **kwargs) -> None:
-        super().__init__(scope, construct_id, **kwargs)
+    def __init__(self, scope: core.Construct, id: str, **kwargs) -> None:
+        super().__init__(scope, id, **kwargs)
 
         # The code that defines your stack goes here
         this_dir=path.dirname(__file__)
