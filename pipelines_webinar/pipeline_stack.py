@@ -3,7 +3,7 @@ from aws_cdk import aws_codepipeline as codepipeline
 from aws_cdk import aws_codepipeline_actions as cpactions
 from aws_cdk import pipelines
 class PipelineStack(core.stack):
-    def__init__(self,scope:core.Construct,id:str,**kwargs)
+    def__init__(self,scope: core.Construct,id:str,**kwargs)
         super().__init__(scope,id,**kwargs)
 
         source_artifact = code.Artifact()
