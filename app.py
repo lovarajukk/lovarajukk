@@ -10,7 +10,7 @@ from aws_cdk import core
 from aws_cdk import core
 
 from pipelines_webinar.pipelines_webinar_stack import PipelinesWebinarStack
-from pipelines_webinar.Pipeline_stack import PipelineStack
+from pipelines_webinar.pipeline_stack import PipelineStack
 
 app = core.App()
 PipelinesWebinarStack(app, "PipelinesWebinarStack",
