@@ -25,4 +25,4 @@ class PipelineStack(core.Stack):
         synth_command='cdk synth'
         )
         )
-        )
+        
