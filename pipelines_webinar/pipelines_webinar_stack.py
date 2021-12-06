@@ -21,7 +21,7 @@ class PipelinesWebinarStack(core.Stack):
 
         self.url_output=core.CfnOutput(self,'url',
          value=gw.url)
-)
+
         # example resource
         # queue = sqs.Queue(
         #     self, "PipelinesWebinarQueue",
