@@ -8,7 +8,7 @@ from pipelines_webinar.pipeline_stack import PipelineStack
 app = core.App()
 PipelinesWebinarStack(app, "pipeliens-webinar"),
 PipelineStack(app,'PipelineStack',env={
-'account':'4108-2881-6693',
+'account':'410828816693',
 'region':'us-east-1'
 })
 
@@ -28,6 +28,6 @@ PipelineStack(app,'PipelineStack',env={
     #env=core.Environment(account='123456789012', region='us-east-1'),
 
     # For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html
-    
+
 
 app.synth()
