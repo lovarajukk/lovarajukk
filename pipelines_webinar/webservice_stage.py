@@ -1,5 +1,5 @@
 from aws_cdk import core
-from .pipelines_webinar_stack import PipelineWebinarStack
+from pipelines_webinar_stack import PipelineWebinarStack
 class WebServiceStage(core.Stage):
     def __init__(self, scope: core.Construct, id: str, **kwargs):
       super().__init__(scope,id,**kwargs)
